@@ -1088,6 +1088,21 @@ const config = {
       40: '40',
       50: '50',
     },
+    animation: {
+      'spin-slow': 'spin 3s linear infinite',
+    },
+    keyframes: {
+      spin: {
+        '0%': { transform: 'rotate(0deg)' },
+        '100%': { transform: 'rotate(360deg)' },
+      },
+    },
+    rotate: {
+      '50': '50deg',
+    },
+    lineHeight: {
+      '43px': '43px',
+    },
   },
   plugins: [],
 };
